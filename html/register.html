@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Hyper IT</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="logo">Hyper IT</a>
+        <nav>
+            <a href="#">Кафедра</a>
+            <a href="#">Преподаватели</a>
+            <a href="#">Новости</a>
+            <a href="#">Занятия</a>
+            <a href="#">Профиль</a>
+        </nav>
+    </div>
+    <div class="login-container">
+        <form action="register.php" method="post">
+            <h2>Регистрация</h2>
+            <label for="login">Логин</label>
+            <input type="text" id="login" name="login" required>
+            <label for="email">Почта</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required>
+            <label for="repeat-password">Повторите пароль</label>
+            <input type="password" id="repeat-password" name="repeat-password" required>
+            <div class="login-buttons">
+                <button class="button" type="submit">Зарегистрироваться</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
